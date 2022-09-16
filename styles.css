@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: tahoma;
+}
+.content{
+   display: block;
+}
+ul{
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    overflow: hidden;
+    box-shadow: 2px 0px 5px black;
+    position: fixed;
+    margin-top: 0px;
+}
+ul li{
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    float: right;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+ul li a:hover{
+    color: pink;
+    background-color: white;
+}
+button{
+    color: white;
+    background-color: aqua;
+    width:100px ;
+    height:40px ;
+    box-shadow: 2px 0px 5px black;
+    border-radius:20px;
+    
+ }
+
+section{
+    height:50vh ;
+    width: 100vw;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+#home{
+    background-color: blue;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  #home h1{
+    padding-top: 50px;
+  }
+  #about{ 
+    background-color: bisque;
+  }
+  #about h1{
+text-align: center;
+padding-top: 20px;
+  }
+  #about .languages{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+  margin: 40px 150px 100px 80px;
+    height: 200px;
+  border: 1px solid black;
+  border-radius:50px;
+  padding:20px;
+    
+    background-color:white;
+    box-shadow: 2px 0px 5px black;
+    
+
+  }
+  div.img-wth-text{
+    background-color: white;
+    box-shadow: none;
+    width: 140px;
+    height: 150px;
+  }
+
+  div.text {
+    text-align: center;
+    padding: 10px 20px;
+  }
+#resume{
+    background-color: blanchedalmond;
+}
+  #resume h1{
+    text-align: center;
+    padding-top: 20px;
+  }
+  div.knowledge{
+    display: flex;
+    padding-left: 150px;
+    
+  }
+  div.education{
+    height:40vh ;
+    width: 40vw;
+    box-shadow: 2px 0px 5px black;
+    border-radius:20px;
+    margin-right: 80px;
+  }
+  div.education-content{
+   
+    padding-top: 50px;
+   text-align: center;
+
+
+  }
+  div.work{
+    height:40vh ;
+    width: 40vw;
+    box-shadow: 2px 0px 5px black;
+    border-radius:20px;
+
+  }
+
+  div.media-links{
+    height:30vh ;
+    width: 100vw;
+    box-shadow: 2px 0px 5px black;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  div.footer-details{
+
+    height:20vh ;
+    width: 100vw;
+    box-shadow: 2px 0px 5px black;
+    border-radius:20px;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+  div.footer-details a{
+    text-decoration: none;
+  }
+ 
+  .fa-twitter {
+    background: #3065da;
+    color: white;
+    border: none;
+  }
+  .fa-linkedin {
+    background: #3982a8;
+    color: black;
+  }
+  .fa-github {
+    background:white;
+    color: black;
+  }
+  .signature p{
+    color: white;
+    margin-top:30px ;
+    font-size: 15px;
+  }
+  div.contact-details{
+    padding-top: 50px;
+    width: 250px;
+    height: 25vh;
+    box-shadow: 2px 0px 5px black;
+border-radius:20px;
+text-align: center;
+  }
+ 
